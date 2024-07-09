@@ -4,6 +4,7 @@ import Sidebar from "./Sidebar";
 
 const Dashboard = () => {
     return (
+        
         <div className="relative min-h-screen md:flex">
             <div>
                 <Sidebar></Sidebar>
