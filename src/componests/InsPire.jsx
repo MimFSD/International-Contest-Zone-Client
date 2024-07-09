@@ -11,6 +11,7 @@ const InsPire = () => {
         queryFn: async()=>{
             const result = await axiosPublic.get('/total/winner')
             return result.data;
+            
         }
         
     })
