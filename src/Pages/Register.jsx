@@ -78,14 +78,12 @@ const Register = () => {
         else if (!/^(?=.*[A-Z])/.test(password)) {
             return toast.error('Must have an Uppercase letter in the password')
         }
-
         try {
 
             setLoading(true)
             const imageResponse = await axios.post(`https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_IMGBB_APT_KEY}`, formData)
             const imageUrl = imageResponse.data.data.display_url
             console.log(name, email, password, imageUrl)
-
 
             createUser(email, password)
                 .then(data => {
@@ -103,13 +101,8 @@ const Register = () => {
                                 role: 'user',
                                 email
                             }
-
                             axiosPublic.post('/users', userInfo)
                                 .then(data => console.log(data.data))
-
-
-
-
 
 
                             Swal.fire({
@@ -127,18 +120,10 @@ const Register = () => {
 
                 })
 
-
-
-
         } catch (error) {
             toast.error('invalid info')
             setLoading(false)
         }
-
-
-
-
-
 
 
     }
