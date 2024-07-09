@@ -8,9 +8,7 @@ import { AuthContext } from "../AuthProvider/AuthProvider";
 const AllContest = () => {
 
     const {  currentPage, setCurrentPage } = useContext(AuthContext)
-
     const [allData] = useAllContest()
-
     const {count}=useLoaderData()
 
     console.log(typeof(count))
