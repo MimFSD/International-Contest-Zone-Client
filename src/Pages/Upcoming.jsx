@@ -21,9 +21,7 @@ const Upcoming = () => {
     return (
         <div>
             <h1 className="text-4xl font-extrabold text-center pt-24 capitalize">Upcoming contest</h1>
-
             <div className="container mx-auto mt-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-
 
                 {
                     data.map(item => <div key={item._id} className="card w-96 bg-base-100 shadow-xl">
@@ -38,7 +36,6 @@ const Upcoming = () => {
                     </div>)
                 }
                 
-
             </div>
             
         </div>
