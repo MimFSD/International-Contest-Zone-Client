@@ -1,7 +1,6 @@
 import { FaFacebook, FaGoogle, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
 const Footer = () => {
     
     return (
@@ -19,8 +18,6 @@ const Footer = () => {
                         <Link ><FaTwitter></FaTwitter></Link>
                         <Link ><FaLinkedin /></Link>
                     </div>
-
-
                     <p>Copyright © 2024 - All right reserved by Contest Platform || ContestHub Ltd</p>
                 </aside>
             </aside>
