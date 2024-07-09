@@ -165,8 +165,6 @@ const Register = () => {
     }
 
 
-
-
     return (
         <div className="hero min-h-screen " style={{ backgroundImage: 'url(https://i.ibb.co/fkShmqr/login-reg-bg.png)', }}>
             <div className="hero-overlay bg-opacity-20"></div>
@@ -271,7 +269,6 @@ const Register = () => {
                                             className='bg-[#0ecdb9] w-full rounded-md py-3 text-white'
                                         >
                                             {loading ? <ImSpinner9 className='animate-spin mx-auto'></ImSpinner9> : 'Continue'}
-
                                         </button>
                                         <Toaster position="bottom-left"
                                             reverseOrder={false}></Toaster>
