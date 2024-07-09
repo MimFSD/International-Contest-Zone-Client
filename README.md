@@ -27,10 +27,6 @@ Welcome to ContestHub, the ultimate platform where innovation meets recognition!
 - **/upcoming:** Upcoming Contests
 - **/news:** Contest News
 
-## Repository Information
-
-For more details and to contribute, visit our [GitHub Repository](https://github.com/programming-hero-web-course1/b9a12-client-side-kazifahim7).
-
 ## How to Use ContestHub
 
 1. **Register or Log In:** Create an account or log in to your existing account.
@@ -40,6 +36,4 @@ For more details and to contribute, visit our [GitHub Repository](https://github
 5. **Select Winners:** Use our judging tools or allow public voting to select winners.
 6. **Announce Results:** Publish the results and notify participants through the platform.
 
-## Contact Us
 
-If you have any questions or need support, please reach out to us at [support@contesthub.com](kazifahim661@gmail.com).
