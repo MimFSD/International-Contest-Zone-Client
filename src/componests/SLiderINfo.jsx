@@ -44,6 +44,7 @@ const SLiderINfo = () => {
                         <figure className="px-10 pt-10">
                             <img src={item?.hostImage} alt="image" className="rounded-full w-40" />
                         </figure>
+                        
                         <div className="card-body items-center text-center">
                             <h2 className="card-title capitalize">{item?.hostName}</h2>
                             <p>Contest name : {item?.contestName}</p>
