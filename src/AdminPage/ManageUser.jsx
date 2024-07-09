@@ -12,6 +12,7 @@ const ManageUser = () => {
     const [currentPage, setCurrentPage] = useState(0)
     const itemPerPage = 10
 
+    
     const { count } = useLoaderData()
 
     console.log(typeof (count))
