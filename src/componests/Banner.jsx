@@ -65,7 +65,6 @@ const Banner = () => {
                             <div className="stat-value text-white">2.6M</div>
 
                         </div>
-
                         <div className="stat">
                             <div className="stat-figure text-secondary">
                                 <div className="avatar">
