@@ -69,9 +69,6 @@ const Navbar = () => {
     const [isPosition]=useRole()
 
  
-
-    
-
     const [isVerified]=useVerified()
 
     console.log(isVerified)
