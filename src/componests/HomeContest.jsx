@@ -9,7 +9,6 @@ const HomeContest = () => {
     
     const axiosPublic=usePublicAxios()
 
-
     const {data:allData=[]}=useQuery({
         queryKey:['all'],
         queryFn:async()=>{
