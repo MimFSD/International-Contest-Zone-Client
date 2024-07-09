@@ -89,6 +89,7 @@ const LogInPage = () => {
                 <div className="hero-content">
                     <div className='flex justify-center items-center mt-7 min-h-screen'>
                         <div className='flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-[#090539] text-white'>
+                            
                             <div className='mb-8 text-center'>
                                 <h1 className='my-3 text-4xl font-bold'>Log In</h1>
                                 <p className='text-sm text-gray-400'>
