@@ -19,13 +19,8 @@ const HostPrivate = ({children}) => {
     else if (user && isPosition === 'host') {
         return children
     }
-
-    
         return <Navigate state={location.pathname} to={'/login'} replace='true'></Navigate>
-
-   
-
-   
+ 
 };
 
 export default HostPrivate;
