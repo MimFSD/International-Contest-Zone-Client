@@ -63,7 +63,6 @@ const ManageContest = () => {
     if(isLoading){
         return <div className="flex justify-center items-center mt-52"><span className="loading loading-spinner loading-lg"></span></div>
     }
-
     const twoWork =  async(id) => {
        const singleData=allCOntest.find(contest=>contest._id===id)
 
